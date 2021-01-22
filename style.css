@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.horloge {
+    border-radius: 50%;
+    border: 4px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.horloge .heures {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.horloge .heures .heure {
+    position: absolute;
+    left: 1.5%;
+    top:1.5%;
+    width: 97%;
+    height: 97%;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 8%;
+}
+
+.horloge .heures .heure:nth-child(1) {
+    transform: rotateZ(30deg);
+}
+.horloge .heures .heure:nth-child(2) {
+    transform: rotateZ(60deg);
+}
+.horloge .heures .heure:nth-child(3) {
+    transform: rotateZ(90deg);
+}
+.horloge .heures .heure:nth-child(4) {
+    transform: rotateZ(120deg);
+}
+.horloge .heures .heure:nth-child(5) {
+    transform: rotateZ(150deg);
+}
+.horloge .heures .heure:nth-child(6) {
+    transform: rotateZ(180deg);
+}
+.horloge .heures .heure:nth-child(7) {
+    transform: rotateZ(210deg);
+}
+.horloge .heures .heure:nth-child(8) {
+    transform: rotateZ(240deg);
+}
+.horloge .heures .heure:nth-child(9) {
+    transform: rotateZ(270deg);
+}
+.horloge .heures .heure:nth-child(10) {
+    transform: rotateZ(300deg);
+}
+.horloge .heures .heure:nth-child(11) {
+    transform: rotateZ(330deg);
+}
+.horloge .heures .heure:nth-child(12) {
+    transform: rotateZ(0deg);
+}
+
+
+.horloge .aiguilles {
+    position: relative;
+    top: -100%;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.horloge .aiguilles .heure {
+	position: absolute;
+	top: 28%;
+	left: 48.5%;
+    height: 22%;
+    width: 1.8%;
+    background-color: black;
+    transform-origin: bottom center;
+}
+
+.horloge .aiguilles .minute {
+	position: absolute;
+	top: 18%;
+	left: 49.4%;
+    height: 32%;
+    width: 1.5%;
+    background-color: #000;
+    transform-origin: bottom center;
+}
+
+.horloge .aiguilles .seconde {
+	position: absolute;
+	top: 8.99%;
+	left: 49.6%;
+    height: 41%;
+	width: 1.4%;
+	background-color: red;
+    transform-origin: bottom center;
+}
+
+.point {
+	position: relative;
+	top: -152.5%;
+	left: 47.5%;
+	width: 5%;
+	height: 5%;
+	border-radius: 50%;
+	background-color: black;
+	font-size: 3em;
+	z-index: 99;
+}
+
+.container {
+margin-top: 10vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 80vw;
+    max-width: 700px;
+    height: 80vw;
+    max-height: 700px;
+}
