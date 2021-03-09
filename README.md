@@ -1,7 +1,10 @@
-# Horloge en JavaScript
+# Clock
 
-## Contexte
-J'ai fait ce projet dans le cadre d'un cours de JavaScript dans ma formation développeur web
+## Context
+I made this clock in JavaScript during my web developer formation 
 
-## Objectif
-Le but est de faire une horloge en JavaScript à partir d'un cours sur la manipulation du DOM
+## Goal
+The goal is to do a clock after a course of DOM's manipulating in JS
+
+## Languages
+🟦HTML 🟥CSS 🟨JS
