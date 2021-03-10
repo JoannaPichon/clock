@@ -127,12 +127,13 @@ body {
 }
 
 .container {
-margin-top: 10vw;
+    font-size: max(24vw, 1em);
+    margin-top: 10vw;
 	display: flex;
 	justify-content: center;
 	align-items: center;
     width: 80vw;
-    max-width: 700px;
+    max-width: 600px;
     height: 80vw;
-    max-height: 700px;
+    max-height: 600px;
 }
