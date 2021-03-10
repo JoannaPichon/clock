@@ -14,4 +14,4 @@ window.setInterval( function horloge() {
 	aiguilleDesMinutes.style.transform = 'rotate('+minutesAngle+'deg)';
 	aiguilleDesSecondes.style.transform = 'rotate('+secondesAngle+'deg)';
 }
-	, 500 );
+	, 1000 );
